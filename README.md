@@ -99,9 +99,6 @@ Contributions are welcome! If you find any issues or want to enhance the applica
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
 
-### Contributors
-
-- Your Name: [GitHub Profile](https://github.com/your-username)
 
 ### License
 
