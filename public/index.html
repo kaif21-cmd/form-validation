@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="/labourdata" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="contact">contact Number: </label>
+    <input type="tel" id="contact" name="contact Number" required>
+
+    <label for="service">Service</label>
+    <input type="text" id="service" readonly>
+    <label for="date">Date:</label>
+    <input type="text" id="date" name="date" required>
+
+    <label for="time">time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="notes">Notes:</label>
+    <textarea id="notes" rows="4"></textarea>
+
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
